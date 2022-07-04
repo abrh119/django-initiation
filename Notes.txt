@@ -1,0 +1,29 @@
+TO CREATE VIRTUAL ENVIRONMENT
+pip install venv
+
+to create: python -m venv venv    
+to activate it: venv\Scripts\activate
+to deactivate type: deactivate
+
+
+1] to start app in django: django-admin startproject projectname
+
+2] to run: python manage.py runserver
+
+3] to CREATE and run an app: python manage.py startapp appname
+
+4] Once app created, add the app in settings.py > " INSTALLED_APPS = [] " list
+
+5] And go to apps, views.py > and create a functional component with request as the argument
+
+6] Now in order for the request to work, routing must be set up, so go app folder and create urls.py and 
+   add the route
+
+7] {{ DOUBLE CURLY BRACES FOR VARIABLES }} and {% FOR CONDITIONS and LOOPS %}
+
+8] In order to load css files and keep them in the caching mechanisms, create a folder named static and subfolder
+   and then styles.css, once done
+   Add the following the code to the top of the html doc
+   {% load static %}
+   and then add
+   <link href="{% static 'checkdate/styles.css '%}" rel="stylesheet"> inside the head tag
