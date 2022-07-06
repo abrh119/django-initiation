@@ -27,3 +27,14 @@ to deactivate type: deactivate
    {% load static %}
    and then add
    <link href="{% static 'checkdate/styles.css '%}" rel="stylesheet"> inside the head tag
+
+9]
+
+10]
+
+11]
+
+12] {% csrf_token %} 
+    <!-- Cross Site Request Forgery Prevention Token for each Users -->
+
+13] Layout inheritance:
